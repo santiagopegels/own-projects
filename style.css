@@ -1754,6 +1754,11 @@ textarea.materialize-textarea {
     height: 40px;
     margin-top: 12px;
   }
+
+  nav .brand-logo {
+    font-size: 1.5rem;
+  }
+
   .home-inner {
     padding: 10px;
   }
@@ -1859,6 +1864,42 @@ textarea.materialize-textarea {
     font-size: 12px;
     line-height: 25px;
   }
+
+  #portfolio-list .project-container {
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 14px 24px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .project-container a {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+  }
+  
+  .project-details-container {
+    border-left: 0.0px solid rgba(0, 0, 0, 0.25);
+  }
+  
+  .project-details {
+    padding: 7px;
+  }
+
+  .project-details h3{
+    font-size: 3rem;
+  }
+  
+  .project-img-container {
+    display: flex;
+  }
+  
+  #portfolio-list img {
+    padding: 0px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    /* max-height: 100vh; */
+    max-width: 65vw;
+}
 }
 
 @media (max-width: 480px) {
@@ -2039,6 +2080,11 @@ textarea.materialize-textarea {
     height: 27px;
     margin-top: 16px;
   }
+
+  nav .brand-logo {
+    font-size: 1rem;
+  }
+
   .resume-btn {
     margin-left: 0;
   }
@@ -2102,7 +2148,7 @@ textarea.materialize-textarea {
 
 @media (max-width: 320px) {
   nav .brand-logo {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
   }
   .home-title {
     font-size: 30px;
